@@ -64,4 +64,23 @@ body {
 
 .icon--hidden {
   display: none;
+}
+
+@media (max-width: 375px) {
+  .faq__background-image--desktop {
+    display: none;
+  }
+  .faq__background-image--mobile {
+    display: block;
+    width: 100%;
+  }
+  .faq__content {
+    width: 327px;
+  }
+  .faq__title {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */

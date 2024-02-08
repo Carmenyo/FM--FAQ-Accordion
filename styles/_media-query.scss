@@ -1,0 +1,23 @@
+@media (max-width:375px){
+    .faq {
+        &__background-image {
+            &--desktop {
+                display: none;
+            }
+            &--mobile {
+                display: block;
+                width: 100%;
+            }
+        }
+        &__content {
+            width: 327px;
+           
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+            gap: 1rem;
+        }
+}
+}
