@@ -39,8 +39,6 @@ body {
     &__heading{
         display: flex;
         justify-content: space-between;
-
-        
     }
     &__question{
         color: $DarkPurple;
@@ -49,6 +47,8 @@ body {
     }
     &__answer{
         color: $GrayishPurple;
+        line-height: 1.7rem;
+        margin-bottom: 3rem;
     }
 
 //   ACTIVE STATES
