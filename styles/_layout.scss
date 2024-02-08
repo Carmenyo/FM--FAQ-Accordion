@@ -50,8 +50,15 @@ body {
     &__answer{
         color: $GrayishPurple;
     }
+
+//   ACTIVE STATES
+&__question:hover{
+    color: rgb(182, 30, 182)
 }
 
+}
+
+// JS ACTIONS
 .faq__answer {
     display: none;
   
@@ -62,3 +69,4 @@ body {
   .icon--hidden {
     display: none;
   }
+

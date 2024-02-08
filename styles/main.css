@@ -51,6 +51,9 @@ body {
 .faq__answer {
   color: hsl(292, 16%, 49%);
 }
+.faq__question:hover {
+  color: rgb(182, 30, 182);
+}
 
 .faq__answer {
   display: none;
