@@ -36,7 +36,6 @@ body {
 }
 .faq__item {
   font-size: 1rem;
-  border: solid 1px red;
   margin-top: 2rem;
   font-size: 1rem;
 }
@@ -51,4 +50,15 @@ body {
 }
 .faq__answer {
   color: hsl(292, 16%, 49%);
+}
+
+.faq__answer {
+  display: none;
+}
+.faq__answer--visible {
+  display: block;
+}
+
+.icon--hidden {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

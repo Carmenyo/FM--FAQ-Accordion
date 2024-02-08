@@ -33,13 +33,14 @@ body {
     }
     &__item {
         font-size: $FontSizeParagraphs;
-        border: solid 1px red;
         margin-top: 2rem;
         font-size: $FontSizeParagraphs;
     }
     &__heading{
         display: flex;
         justify-content: space-between;
+
+        
     }
     &__question{
         color: $DarkPurple;
@@ -50,3 +51,14 @@ body {
         color: $GrayishPurple;
     }
 }
+
+.faq__answer {
+    display: none;
+  
+    &--visible {
+      display: block;
+    }
+  }
+  .icon--hidden {
+    display: none;
+  }
