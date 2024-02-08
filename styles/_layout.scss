@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: $LightPink;
+}
+
+.faq {
+    &__background-image {
+        &--desktop {
+            width: 100%;
+        }
+        &--mobile {
+            display: none;
+        }
+    }
+    &__content {
+        margin: auto;
+        background-color: $White;
+        width: 600px;
+        position: relative;
+        top: -160px;
+        font-family: $FontFamily;
+        border-radius: 1rem;
+        padding: 40px;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        font-size: 2.3rem;
+        gap: 1rem;
+    }
+    &__item {
+        font-size: $FontSizeParagraphs;
+        border: solid 1px red;
+        margin-top: 2rem;
+        font-size: $FontSizeParagraphs;
+    }
+    &__heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__question{
+        color: $DarkPurple;
+        font-size: $FontSizeParagraphs;
+        margin-bottom: 24px;
+    }
+    &__answer{
+        color: $GrayishPurple;
+    }
+}
