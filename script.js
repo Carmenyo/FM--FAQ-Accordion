@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const answer = item.querySelector('.faq__answer');
   
         answer.classList.toggle('faq__answer--visible');
-  
+  plusIcon.classList.toggle('icon--hidden', answer.classList.contains('faq__answer--visible'));
+      minusIcon.classList.toggle('icon--hidden', !answer.classList.contains('faq__answer--visible'));
         const plusIcon = heading.querySelector('.icon-plus');
         const minusIcon = heading.querySelector('.icon-minus');
-  
+
+
         // Muestra el ícono "plus" si la respuesta está oculta, y "minus" si la respuesta está visible
         plusIcon.classList.toggle('icon--hidden', answer.classList.contains('faq__answer--visible'));
         minusIcon.classList.toggle('icon--hidden', !answer.classList.contains('faq__answer--visible'));
